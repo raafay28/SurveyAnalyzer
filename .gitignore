@@ -1,0 +1,30 @@
+# Node.js dependencies
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+.eslintcache
+
+# Python environment & cache
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+backend/env/
+backend/venv/
+backend/ENV/venv/
+backend/ENV/
+
+# Uploads and temporary data
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS files
+.DS_Store
+Thumbs.db
